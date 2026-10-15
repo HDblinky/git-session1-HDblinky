@@ -21,9 +21,10 @@ This project is part of Assignment 1 for Git and GitHub Fundamentals. It demonst
 ## Basic Workflow
 
 ```bash
-git add <file>
-git commit -m "Describe your change"
-git push
+git status
+git diff
+git diff --staged
+git log --oneline --graph --all
 ```
 
 ## Useful Link
